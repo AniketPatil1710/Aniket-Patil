@@ -1,0 +1,97 @@
+Que1)
+
+In the above code, we have performed the post decrement operation on t he variable
+val which is initializes to 1,and hence internally a function which peforms the post decrement,
+eg.int post(val){.//post(1)
+int temp;
+temp=val//temp=1;
+val=val-1;//val=0;
+return temp;//return 1;
+}
+
+add from above snippet the value gets returned as 1 and so the condition for if
+block gets false nd so else block gets
+executed
+
+and hence thhe current answer is True.
+
+
+Que2)
+
+Usually break statement is used to come out from a looping block of execution for instance for-loop,while-loop,do-whileloop etc.
+
+but in above snippet we are using it inside a if-else block which is not a looping tatement since it will only get executed once,
+
+and hence the compiler wil throw error as "Break statement not within a loop or switch"
+
+Que3)
+
+every number other than zero is considered as true.
+ So all conditions if statement are true ,
+ so if block executed.
+So option A iscorrect
+
+Que4)
+whenever we dont enclose thhe if block within curly-brace, only one statement is consideredas a part of if-block,
+so printf("1") is part of if bock,
+second printf("2") is cosidered as independent statement
+but when compiler read the else statement it will look up corresponding if-block to that else but right above if compiler will get a individual'
+print statement it will look up for correspondence with the above that printf and hence it will give the error.
+simply,we can't use any statement between if and else blockotherwise
+compiler gives error
+
+
+Que5)
+
+if(pn>20){//100>20 => Condition is true.
+
+if(pn<20)// 100>20 => Condition is false so else will get executed
+
+else
+	printf("Hiiiii")
+
+	so option B
+
+
+Que6)
+
+L suffix indicates long int. and long requires 8 bytes.
+10L will be stored in memory like below,
+0000 0000 0000 0000 0000 0000 0000 1010
+
+ 10 is of integer type it requires 4bytes 10 willl be stored in memory like below
+
+ 0000 0000 0000 1010
+
+ both 10L and 10 are same and so if condition will return true ,
+ So ans is 10L
+
+
+Que7)
+
+Here  a=500 the precedance of relational operators if higher than hat of logical operators,
+So first a>=400 will get checked and then logical not operator will work
+here, the vale of a(500) id greater than 400 so the statement becomes true
+i.e.!(True)
+Negation of rue is false and so if statement will return false and b will not get assigned new value .
+So answer is d correct
+
+Que8)
+
+0.7 is considered as double value,
+and in internal representation of 0.7(double) value is greter than that of 0.7(float)value.
+so if statement returned true s option a is correct
+
+Que9)
+
+if(!(!x) && x){
+     //(!(x)&&x))
+    //(!(false && true) non zero numberis true 
+     //(!(false))
+     so condition becomes true 
+      option c is correct
+     
+~           
+
+
+

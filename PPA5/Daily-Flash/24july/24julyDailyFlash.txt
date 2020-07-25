@@ -1,0 +1,45 @@
+Que1)
+write the C programme to print following pattern.
+OUTPUT:
+         A
+        BC
+       CDE
+      DEFG
+     EFGHI
+
+Que2)write a C program to print following pattern
+
+OUTPUT:
+       0
+      01
+     010
+    0101
+   01010
+
+Que3)Print following Pattern
+
+Output:
+             25
+          16 25
+        9 16 25
+      4 9 16 25
+    1 4 9 16 25
+
+Que4)Print following Pattern
+
+Output:
+           E
+         D E
+       C D E 
+     B C D E
+   A B C D E
+
+Que5)Print Following pattern
+
+Output:
+         1
+        21
+       321
+      4321
+     54321
+

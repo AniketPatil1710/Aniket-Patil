@@ -1,0 +1,48 @@
+Que1)
+Write a C program to take a number as input and print whether that number is
+strong number or not.
+(Note:Strong number is that whose digits factorial addition is equal to that 
+number 145 is strong number = 1+ 24+120=145)
+input:145
+output:
+145 is strong number
+
+Que2)
+Write program to print following pattern using nested
+whle loop
+
+output:
+1
+1 2
+2 3 4
+4 5 6  7
+7 8 9 10 11
+
+Que3)
+write program to print following pattern using nested while loop
+
+output:
+5 4 3 2 1
+  8 6 4 2
+  9 6 3
+  8 4 
+  5
+
+Que4)
+Write a C program to make such a pattern like pyramid with numbers 
+increased by 1.Use nested while loop.
+
+Output:
+     1
+    2 3
+   4 5 6
+  7 8 9 10
+
+Que5)
+write a program to print following pattern 
+
+Output:
+       a
+     a b
+   a b c
+ a b c d
