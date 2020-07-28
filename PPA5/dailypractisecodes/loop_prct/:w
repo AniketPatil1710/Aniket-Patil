@@ -1,0 +1,29 @@
+#include <stdio.h>
+void main()
+{
+	int i , j , space, t , a=0 , k=65 ;
+
+	for(i=7 ;i>=0;i--)
+	{
+		{
+
+		for(j=0 ; j<=i ; j++)
+			printf("%c ",(k+j));
+		for(space=1;space<=(1+a);space++)
+		{
+			if(i==7)
+				;
+			else
+			{
+			printf(" ");
+			a=a+2;
+			}
+		}
+		for(t=7 ; t<=i ; t--)
+			printf("%c ",(k+t));
+
+	}
+	printf("\n");
+	}
+	
+}
