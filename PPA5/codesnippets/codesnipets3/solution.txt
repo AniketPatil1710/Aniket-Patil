@@ -1,0 +1,90 @@
+Que1)
+
+//printf() function is used to write (display/print) the output on the screen.
+//
+//Prototype: extern int printf(const char *__restrict __ format,__);
+//
+//The printf function has return type int . printf() function returns total no. of characters
+//printed on the screen
+//
+//printf() function has two parameters 
+//1. const char* __restrict__format: It contains string.
+//  -const char* contains two different types
+//  a.ordinary character which display on the screen.
+//   eg.printf("Hello");
+//  b.Format specifiers or conversion specification which convert
+//  the given data in specified data type
+//  and print the corresponding argument.
+//  eg.printf("%d",varName);
+//
+//  In above code:
+//  printf("Hello Someone"); is a ordinary character
+//  it prints:Hello Someone 
+~                                                                                                                                                        
+~ 
+
+Que2)
+
+//reffer 1st Que solution
+//
+//ellipsis(...):
+//      it indicates that the function canhave 'N' number of arguments.
+//
+//In above code:
+//      dgitTen=10 integer type variable. printf("What is digit ten %d",digitTen);
+//      In this %d is a format specifier which is replaced by value of an integer type data.
+//      %d is replaced by value of an integer variable(digitTen) so output displays as
+//      what is digit ten 10
+//      
+
+3)
+// in above code:
+//      num1=13.5 is float type
+//      num2=12.4 is double type
+//      printf("number1=%f\n"); in this %f format specifier is used to display
+//      float type data.
+//      %f is replaced by value of an float variable(num1) and prints output
+//      number1=13.500000
+
+//      printf("number2=%lf\n"); in this %lf format specifier is used to display
+//      double type data.
+//      %lf is replaced by value of an float variable(num2) and prints output
+//      number1=12.400000
+
+Que4)
+
+/In above code:
+//      chr='a' is character type
+//      printf("It is character=%c",chr); Here the format specifier %c is used to display
+//      the character type data,
+//              %c is replaced by vaue of an char variable(chr).
+//              so the printf() function displays the output on the screen is
+//              It is Character = a
+~    
+Que6)
+
+/ In above code :
+//      tempstr[] is a character array.
+//      character array is used to store the string.
+//
+//      printf("\n The value returnned by printf() or tempstr i: %d",printf("%s",tempstr));
+//      Here nested printf(function has returned total no of characters printed on the screen.
+//      
+//      In this Insider printf() function will execute firstand print tempstr value
+//      eg. THE WATER HAS NO COLOR
+//
+//      outer printf() function print the lenght of string
+//      (number of character printed on the screen by insider printf()
+//
+~ 
+Que10)
+/giving data from keyboard 5 6 7 8 9
+//in scanf() function we prefered that don't write anything else excepting format specifier because 
+//of comma code gives undefined behavour
+//and print garbage value eg.0.000000
+//we use %f format secifier to print val, it gives flaot value.
+~     
+
+
+
+
