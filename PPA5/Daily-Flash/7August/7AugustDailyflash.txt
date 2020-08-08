@@ -1,0 +1,33 @@
+Que1)
+Write a program in C to multiply two numbers without actually using * operator
+by using do while loop.
+
+Que2)
+Take integer from user and print it,Exit the loop whenever user enters a prime number.
+
+Que3)
+Write a program to accept a number from user and print that number by decrementing until 
+it reaches 0 using do-while loop.
+
+Que4)
+Write a program which shows a menu card of burger house and give the customer the choice of veg 
+and non-veg and each of them consist of 4 different types of burgers and print the order at last and ask them again for more using do while loop and nested switch.
+
+	Input:
+		WElcome To Burger King
+ 		Please select from the folwing:
+		1.Veg
+		2.Non Veg
+
+	_1
+	  Veg Blasts 
+	a.Veggei Tikki Burger 
+	b.Aloo Tikki Burger
+	c.Mushroom Veggei cheese 
+	 Burger
+	d.Peanut Butter sweet Potato Burger
+
+
+Que5)
+Take an Integer from the user and print it Exit the loop whenever user enters a palindrome
+number number.

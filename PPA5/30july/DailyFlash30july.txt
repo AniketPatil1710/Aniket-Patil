@@ -1,0 +1,44 @@
+Que1)
+write a program to print following pattern
+
+         A
+       B B B
+     C C C C C
+   D D D D D D D
+ E E E E E E E E E
+
+Que2) 
+write program to draw following pattern
+
+             1
+           1 2 3
+         1 2 3 4 5
+       1 2 3 4 5 6 7 
+     1 2 3 4 5 6 7 8 9
+
+QUE3)
+write program to draw following pattern
+
+              1
+           8  1  4
+        27 8  1  4  9
+     64 27 8  1  4  16
+
+qUE4)
+write program to draw following pattern
+
+               4
+             3 4 5
+           2 3 4 5 6
+         1 2 3 4 5 6 7
+
+qUE5)
+write program to draw following pattern
+
+              D
+            C D C
+          B C D C B
+        A B C D C B A
+
+
+            

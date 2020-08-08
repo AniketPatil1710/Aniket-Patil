@@ -1,0 +1,78 @@
+Que1)
+
+/Every loop contains twermination condition to stopexecuting
+//int x=1 is the initializing condition for the loop but there
+//is no termination condition for the loop to understand where
+//or when to stop incrementing
+
+Que2)
+
+//the loop equivalent to:
+//
+//while(x>0) {
+//
+//	x=x-1;
+//	printf("%d",x);
+//}
+//so value of x is first decremented
+
+Que3)
+
+/ The loop firs decrements the value of x,
+// then compaires it then if true, executes the statement
+// inside loop
+//
+// Iteration:
+// 	
+// 	1) x=5 x=x-1 x=4 x>0 : Trueprint: 4
+// 	2) x=4 x=x-1 x=3 x>0 : Trueprint: 3
+// 	3) x=3 x=x-1 x=2 x>0 : Trueprint: 2
+// 	4) x=4 x=x-1 x=1 x>0 : Trueprint: 1
+// 	5) x=1 x=x-1 x=0 x>0 : False - Break loop
+
+Que4)
+
+// no termination condition to loop to understand where to stop
+// incrementing hence terminated in infinite loop
+
+Que5)
+
+//1) x=5 , y=0 x>y :true x=x-1 , y=y-1 x=4 y=1 print:4
+//2) x=4 , y=1 x>y :true..............,x=3 y=2 prin:3
+//3)  x=3 , y=2 x>y :true x=x-1 , y=y-1 x=2 y=3 print:2
+//then condition false loop breaks
+
+Que6)
+
+//iterration:
+//	1) x=5 , y=0 y=y+1 : y=1 x>y :true x=x-1 : x=4 print:4
+//      1) x=4 , y=1 y=y+1 : y=2 x>y :true x=x-1 : x=3 print:3
+//      1) x=3 , y=0 y=y+1 : y=3 x>y :false break loop
+  
+Que7)
+//iterration:
+//      1) x=5 , y=0 x=x-1 : y=1  y=y+1 : x=4 X>Y TRUE print:4
+//      1) x=4 , y=1 x=x-1 : y=2  y=y+1 : x=3 x >y true print:3
+//      1) x=3 , y=2 x=x-1 y=y+1 : x=2 y=3 x>y :false break loop
+
+Que8)
+
+// The unary operator + has hieghest priority.
+// The bracket is solved first, so +0 remains 0.
+// Now becomes:(+(0)!=0), that is (0!=0), which returns False., Hence
+// while loop will not executed and nothing will be printed
+
+Que9)
+
+// The unary operator + has the heighest priority, The bracket is solved first 
+// sop +0 remains 0 now it become :(+(0)==0), that is(0==0) which returns true
+// then body of while executes.inside while loop the value of x is decrerment
+// to x= -1 this of x gets printed output
+
+Que10)
+
+// The operation performed as (++(x--))==0 here , it can be simplified
+// as ++(x-1) the increment operation only takes variable for performing an operation but here we are providing it with
+// an expression.
+// that is why it gives an error.(lvalue required as ncrement operand)
+

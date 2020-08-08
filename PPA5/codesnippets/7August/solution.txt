@@ -1,0 +1,55 @@
+Que1)
+// Every loop requires a termination condition to stop execution. 'int x=1'
+// is the initialization step,x>=0 is the condition for the loop , but thereis no 
+// termination condition for the loop to understand where or when to stop incrementing.
+
+Que2)
+//So value of x first decremented then it is printed.
+//
+//Iterations:
+//
+//1)x=5 x>0 : True x=x-1 print:4
+//2)x=4 x>0 : True x=x-1 print:3
+//3)x=3 x>0 : True x=x-1 print:2
+//4)x=2 x>0 : True x=x-1 print:1
+//5)x=1 x>0 : True x=x-1 print:0
+//6)x=0 x>0 : False Break loop
+
+Que3)
+/The while loop first decrements the value of x then compares it and if true , executes
+//the statement inside the loop
+//
+//Iterations:
+//
+//1)x=5 x=x-1 x=4 x>0 : True  print:4
+//2)x=4 x=x-1x=3 x>0 : True  print:3
+//3)x=3 x=x-1 x=2 x>0 : True  print:2
+//4)x=2 x=x-1 x=1 x>0 : True  print:1
+//5)x=1 x=x-1 x=0 x>0 : false  Break the loop
+
+Que4)
+// Every loop requires a termination condition to stop execution. 'int x=5'
+// is the initialization step,x>=0 is the condition for the loop , but thereis no
+// termination condition for the loop to understand where or when to stop incrementing.
+
+Que5)
+//Iteration:
+//	1)x=5 , y=0 y=y+1 : y=1 x>y : True x=x-1 : x=4 print:4
+//      2)x=4 , y=1 y=y+1 : y=2 x>y : True x=x-1 : x=3 print:3
+//      1)x=3 , y=2 y=y+1 : y=3 x>y : False Break loop
+
+Que6)
+// increment and decrement operators have heigher priority and will have heigher priority
+// and will have heigher priority and will be performed first and then the comparison operation
+// will be performed . The while loop will executes thhe print statement till condition becomes false.
+//
+// Iteration:
+//      1)x=5 , y=0 x=x-1 : y=y+1 x=4 , y=1 x>y : True  print:4
+//      2)x=4 , y=1 x=x-1 : y=y+1 x=3 , y=2 x>y : True print:3
+//      1)x=3 , y=2 x=x-1 : y=y+1 x=2, y=3 x>y : False Break loop
+
+Que7)
+/ Quetion is repeated
+
+Que8)
+/ Quetion is repeated
