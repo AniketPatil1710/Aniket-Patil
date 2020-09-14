@@ -1,0 +1,23 @@
+Que1)Write program that calculate the lenght of an array using sizeof operator.
+
+Que2)Write program thet takes 5 integers from the user in an array, stores the
+	factorial of each integer in that array into another array and print the
+	contentents of both the arrays.
+
+Que3)Write a program that takes an array of 6 elements. If the number to be entered 
+	in the array is even, stores its square,else stores the number as it is find 
+	the biggest number in the array and display it.If the number is stored as a
+	square , display its root, else display it as it is.
+
+Que4)Write a program that takes size of array from user and print only palindrome numbers from 	the array
+	Input:1 3 11 20 50 71 101
+	Output:1 3 11 101
+
+Que5)Write a program that takes array size and array elements from the user, if 1st and last
+	elements both are strong nubers then swap them, if 2nd and last elements both are strong
+	numbers then swap them, and so on. But if any one of them is not a strong number then do 	not swap them.
+
+	Input: Array size:5
+	       Array elements:1 2 3 1 145
+	       Output:145 1 3 2 1 
+
