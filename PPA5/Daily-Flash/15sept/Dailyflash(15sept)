@@ -1,0 +1,23 @@
+Que1)
+Write a rogram to take the length of array and elements from the user and print the elements of array also print the elements of array also print the size and adress of array(type of array: integer,float,character).
+
+
+Que2)
+Write a program to convert all upercase characters in an array to lowercase and print that array.
+
+Que3)
+Write a C program that has an array of integers take size of array from user and elements too, find occurance of 1 (aOnes as in digits) in an array.
+
+Inpute: size of array:9
+121 3 45 21 61 11 12 22 4
+
+Output:Occurace of a as digit in array:7
+
+
+Que4)Write a program in c to sort elements of array in ascending order.
+
+Que5)
+Write a program in C to copy the elements of one array into another array in reverse order.Take meaningful elements from the users. (Example marks of student.)
+
+Input(array1):-56 63 74 60
+Output(array2):-60 74 63 56
