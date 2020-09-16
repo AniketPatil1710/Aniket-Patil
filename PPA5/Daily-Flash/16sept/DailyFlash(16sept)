@@ -1,0 +1,19 @@
+Que1)
+Write a program to take size of array and elements from the user and find the two largest elements from an array.
+
+sample array input:
+{10,20,15,30,60}
+Output:First largest:60
+	Second Largest:30
+
+Que2)Write a program to take the lenght of array from user and store the address of all elements of the array and explain the code.
+
+que3)Write a program to take 2 arrays of any(same) size from the user . Find the minimum and maximum numbers of both arrays and store the numbers in another array.(you may use hard-coded indexing)
+
+Que4)Write a program to sort the following array.(Use any alogarithm)
+{2,5,3,7,8,1,4,6,9,0}
+
+Que5)Write a program that finds Armstrong numbers in a given array. and sort those armstrong numbers in an ascending order
+
+Input:[9,12,153,1,2,370,5,67,3]
+Output:[1,2,3,5,9,153,370]
