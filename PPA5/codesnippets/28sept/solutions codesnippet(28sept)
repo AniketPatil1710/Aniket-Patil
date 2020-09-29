@@ -1,0 +1,67 @@
+Que1)
+Here we declare an const array of integers and an integer pointer.
+while assining the value to ptr we assign an address of an 3rd elemet from array
+arr=100
+&(arr+3)=112
+
+ptr=112
+so we change value to that adress so it also assign to that const array because here thevalue i that array are consrtant address are not constant so we can access that and change the value to that address
+So in above code it gives the value which we assign to that pointer.
+
+Que2)
+arr[4]=5
+arr[i]=arr[2]=3
+arr[j]=arr[5]=6
+.......
+arr[4%i]=arr[0]=1
+
+Que3)
+Negative index for an array is allowed in an C programming
+
+this code is compiled but gives an garbage value
+arr=100
+arr[-2]=(100-2*4)=100+(-8)=92
+
+because it points to the previous adress which is not part of array
+
+Que4)
+Default value assign to an uninitialised local array is garbage value & default value assign to an uninitialised global array is 0
+so in above code global array print all 0, and local array prints all garbage value.
+
+Que5)
+garbage value is the default value to the uninitialised local array
+but arrray in partial initializers then local array store those garbage value as 0
+
+so in above code the first two values of an array ar 10,11 and others are 0
+
+Que6)
+initialy i=4 so while loop executed
+
+while i=4 value of j=garbage value because 4 is out of array index
+while i=3 value of j=16+3=19
+....
+while i=1 value of j=4+1=5
+while i=0 loop terminates
+
+so output of above  code is 5
+
+Que7)
+code will executes without n error 
+
+the condition of an while loop is given as an array elements
+so initially
+
+while arr[0]=4 then sum =4
+while arr[1]=2 then sum=4+2=6
+while arr[2]=6 then sum=6+6=12
+while arr[3]=0loop trminates
+
+0 is the termination condition of an array
+
+so the output is sum=12
+
+Que8)
+---
+
+Que9)
+final sum will be 70

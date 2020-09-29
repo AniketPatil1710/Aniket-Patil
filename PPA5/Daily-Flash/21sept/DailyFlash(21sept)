@@ -1,0 +1,39 @@
+Que1)
+Write a program to take the lenghth of character array and elements from the user and elements from the user and print the following pattern using that character array and print the following pattern using that character array (you may use different characters)
+
+Sample input: S T A C K
+Output:
+S
+S T
+S T A
+S T A C K
+
+Que2)
+Write a program to take the lenght of two array and elements frrom the user and check whether elements of first array is square of elements of second array if yes then print 1 otherwise print -1.(consider one to one relationship, compare 1st index with 1st index opf another array only and so on)
+(note:Length of two array is same)
+
+Que3)
+Write a program that accepts qarray size and its elements from user, and swap first element with last, second with second last and so on. then print array.
+
+Input:6
+Array elements:3 61 23 9 87 0
+Output:0 87 9 23 61 3
+
+Que4)
+Write a program that accept two array size and array elements from user , go with each index , if 0th index element of second array is divisible by 0th index of first array,hen ppush factorial of max element among them at 0th index of third array and if they are, not divisible then push only minium element among them, so on and then print the elements in third array.
+
+Input size: 4
+First Array Elements:2 2 1 8
+Second Array Elements:5 4 5 3
+
+Output:
+Third Array elements:2 24 120 3
+
+Que5)
+Write a program to take the lenght of array and elements from the user and print frequency of each elements of an array.
+sample input:
+Lenghth of an array:4
+Output:
+0 occurs 1 time
+1 occurs 2 time
+2 occurse 1 time 

@@ -1,0 +1,24 @@
+Que1)
+Write a program to take 4 different types of variables and pointers.Assign adress of variables to pointers . Print content and size of those variables and pointers. Explain outputs.
+
+Que2)
+Write a program of 3 students. Record contains student roll number and pincode of city he/she is living in. print studentroll number, and pincode using pointer(Hint:Store adress of each variablein pointer)
+
+Input: 1
+  411041
+  2
+  423105
+  3
+  423203
+
+Output:Roll no:1,Pincode:411041
+       Roll no:2,Pincode:423105
+       Roll no:3,Pincode:423203
+
+Que3)
+Write a C program that has four variables of different datatypes,store their adress into Pointers of respwective typesand print values of variables by dereferencing the pointer.
+
+Que4)
+Write a program that takes two integer values from user. store their address and swap them by derencing the pointers.
+
+Que5)Writwa program to take employee details from user (Employee_id,Employee age ,Empoyee_salary) store each value in respective pointer , and print thevalues usiong. 

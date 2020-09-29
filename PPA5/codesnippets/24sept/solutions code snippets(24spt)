@@ -1,0 +1,17 @@
+Que1)
+Here we have called the function by passing address of array, which technically is correct as the receiver/parameter is a potential pointer and when we are changing the value at second index in arr , but as arr in function is nothing but reffernce of arr in function is nothing but reference of arr in main , the value in main gets changed. and hence option a is correct answer.
+
+Que2)
+To initialize array with initializer list we use curli-braces instead of square brackets and so it"s an invalid syntax and hence we get compile time error.
+
+Que3)
+alphabets[5] is out of bound in array. Accessing outside the bounds of the array will simply access another part of the already allocate stack space.
+
+Que4)
+at adress arr-1 and arr +3 we did not assign any value . All the unitializer static variables in BSS have default value zero.
+
+Que5)
+we can't use increment and decrement operator on memory operator on memory adress . Because it try to change memory adress.
+
+Que6)
+adress=(adress)+(number*sizeof datatype = 4 &Core2web represent adress of hole array hence size of datatype =16

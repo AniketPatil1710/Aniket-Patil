@@ -1,0 +1,79 @@
+Que1)
+it is aninteger array of five elements the value of a[1] is=1 , value at first position 
+as index of array starts with 0.
+
+i=++a[1]=++1=2 so here i=2
+j=a[1]++= on the next line 1++=2 , j=2
+m=a[i++] as we know i=2 so i++ will returns 2 a[2]=15
+and then i incrementsed i=3
+the final value are i=3,j=2,m=15
+
+Que2)
+arr is such array initialized with initializer list of elements,
+in main we have called function fun with
+parameter 4 and base adress to array.
+iside fun,all been do is run a while loop which iterated through
+array,assigns adress of each element to array
+
+and as the operation done inside while is post-incremented for each itteration the value i is more than 
+expected so when the termination condition comes
+which is
+while(3<4)= which is true and then i becomes =>4
+
+to pointer p we assign adress of element which is at 4th index in array which doesnt belongs to array we have passed and hence even after assigning 0 to the location the pointer p is pointing , itsimply do not change a single element from array and when control is returned back to main, a for loop gets executed and it prints out the elements for array.
+
+Output is.B>1,2,3,4
+
+Que3)
+\0 is a=zero character. In C it is used to indicate the termination of a character string hence it prints nothing.
+
+Que4)
+arr is a rray integer elements
+as we see i is initialised to 0
+as in while loop i is pre incremented so arr[0] is 
+not initialised 
+arr[1] gets the value 1 and arr[0] gets the garbage value
+it may be zero or any random value 
+other index also gets the values as arr[2]=2
+arr[3]3 arr[4]=4
+when value of i becomes 5 then while loops
+condition gets false and for loop is executed
+
+Que5)
+arr is array of one integer element
+
+Que6)
+Arr is array of integer elemments,the size of array is not mentioned
+
+if we consider adress of arr is 100(&arr=100)
+array is initianally pointer so if we print the value of arr it holds the adress of whole array(100)
+it is also the adress of first element also(100)
+the output is same
+
+Que7)
+arr is a rray of float elements float has size 4 bytes
+as arr consists 4 float elements so size of arr is 4*4=16
+
+sizeof arr(0) is 4
+the output is 4 as 16/4=4
+
+Que8)
+if we consider adress of arr is 1200 (&arr=1200)
+array is internally pointer so if we print the value of
+arr it holds the adress of whole array(1200)
+we can access the value by applying * on it
+it is also the adress of first element also i.e
+&arr[0](1200)
+the output of both three are same
+
+Que9)
+buf is a array of character elements of lenghth 10
+
+p=(buf+1)[5] states that array is incremented but itself holds the adress of array if array
+if we increment it, then it is not a normal incrementation
+if adress of buf=100 then adress of buf [5] is 105 as it is a charcter array
+when we try to increment , it is done by data type 
+i.e. 105 + 1* size of data type of pointer
+     105+1*1(size of char)
+106
+the element at sixth index is 9

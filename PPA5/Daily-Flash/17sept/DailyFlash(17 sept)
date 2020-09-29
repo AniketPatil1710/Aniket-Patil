@@ -1,0 +1,24 @@
+Que1)
+Write a programto check whether a number in an array is prime or not if yes then insert that element into another array and delete it from the first array.Print both the arrays.Take size and elements from user.
+
+Que2)
+Take number as input,put thet number into an array i.e one digitper array block, and print the number of trailing zeros in that array.
+
+Input from user:10900
+Output:Number of trailing zeros:2
+
+Que3)Take any number from the user and find a pair in an array which sums match to that number.
+E,g. int arr[6]={2,4,1,6,8,5}
+
+Input:10
+Output:index 0, index 4
+
+Que4)Write a prograam take character array as an input until enter , but dxo not take special characters as input.
+
+Input: a b $ % c & d 1 e (pressed enter)
+Output: a b c d e
+
+Que5)Write a program , take input from user user into an array and remove duplicate numbers.
+
+Input:1 2 2 3 3 3 3 4 4 5
+Output: 1 2 3 4 5

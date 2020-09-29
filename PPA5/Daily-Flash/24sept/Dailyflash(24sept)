@@ -1,0 +1,35 @@
+Que1)
+Write a program to modify the value stored in other variable using pointer . and also print the size of the variable and pointer.
+
+Que2)
+Write a program to print a table of a number but take input from the user and store that adress intoa pointer and whie printing table dereference tat pointer.
+
+
+Que3)Explain the error in given code detail.
+ 
+#include <stdio.h>
+
+void main() {
+	
+	int const i=10;
+	int j=20;
+	int const *ptr=&i;
+	printf("ptr:%d\n",*ptr);
+	*ptr=100;
+	ptr=&j;
+	printf("ptr:%d\n",*ptr);	
+}
+
+Que4)
+Write a C program to take student details from the user (1/2/3/4),roll no,backlogs(y/n):if y then no. of backlogs),CGPA , store each value in respective pointer, and print the value using the pointer.
+
+Que5)
+Write a program That Accepts two integers ad character operators from the user, store the address of the variable in their respecive pointer variables.erform Arithmaticoperations(like addition,absolute subsraction,multiplication,division,modulo,power(var1^var2),on variable data using pointer by using switch case.
+Note: don:t use any library for power function!
+
+Input:
+Enter Number1: 2
+Enter Number2 :3
+Enter Operator: ^(power operator)
+Output:
+2^3=8
