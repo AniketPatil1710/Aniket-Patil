@@ -1,0 +1,31 @@
+Que1)
+Write a program to print the values of array and address of each index using pointer , use the same pointerto repeat this operation wit another array. If the pointer was declared as constant(int *const itr=&arr1[0]) can we do the above quetion using pointers?
+Input:
+arr1:1 2 3 4 5
+arr2:9 8 7 6 5
+Output:
+Arrray1: 
+arr1[0]=1
+and adress is 1238
+
+arr1[4]=5 and address is 125A
+
+Array2:
+arr2[0]=9 and adress is 2234
+arr2[4]=5 ad address is 237a
+
+Que2)
+Write a program to take an array of some element and store the address of the first element and base aaddress of the array in two different loop and print the difference between those pointers (store the value of pointersin 2 different variable and then find difference). Iterate the loop upto number of elementsin the array and try it also for different aizes of array(ignore the warnings).
+
+Que3)
+Write a program to accept aninteger array of five numbers.Print each number of the arrayusing pointer. Add the numbers of the rray using pointer.
+
+Que4)
+Write a program to accept an array of 10 integers . Iterate over the array using pointer and printsum of all even numbers separately.
+Input: 1 2 3 4 5 6 7 8 9 0
+
+Output:Sum of Even numbers=20
+Sum of Odd numbers= 25
+
+Que5)
+Write a Program That accepts Two arrays. Take size of array elements from user.Store the each array address in their pointers respectively.(Take elements in 1st and 2nd array using their pointers)Createa thired arrayarray having the same size and store the third array address in an third pointer.Now iteraate 1st and 2nd array using their pointer(don't use extra pointers,use the same pointer used for taking rray elements), and store sum of 1st nd 2nd array elements with the same index in 3rd array using pointer.And print the elements in the third array.
