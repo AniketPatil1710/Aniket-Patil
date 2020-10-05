@@ -1,0 +1,62 @@
+Que1)
+Write a program to take a 2 dimensional array of m rows and n columns and print the addition of the main diagonals and if the sum is even then print the transpose of matrix.(note:m and n must be the same.)
+
+Output:
+12 14 16
+21 24 26
+06 18 10
+[Main diagonal elements]:12 24 10
+
+Main diagonal elements addition is:46 
+
+Transpose of matrix:
+12 21 06
+14 24 18
+16 26 10
+
+Que2)write a program in C to take a 2 dimensional array of 4 rows and 4 columns and display that array in the following format, also find out the biggest nummber in the whole array.
+
+Output:
+10 11 12 13
+14 36 16 17
+18 19 20 21
+22 23 24 25
+
+Biggest number in the array is 36.
+
+Que3)
+Write a program in C to take a 2 dimensional array of 3 rows and 3 columns and print the count of negative numbers present in the array.
+Output:
+ 1  2  3
+-1 -4  5
+ 5 -4  0
+Output:
+Count:3
+
+Que4)
+Write a program to accept a 2D array of size 3*3 and print all prime numbers .
+Input:
+Array size:39arr[3][3])
+Enter Array elements:
+1 2 3 
+4 5 6
+7 8 9
+
+Output:
+2 3 5 7
+
+Que5)
+Write a Program that takes array size and elements from User , and swap the 1st column and last column of each row.
+
+Input:
+Array size:3(arr[3][3])
+Enter array Elements:
+1 2 3
+4 5 6
+7 8 9
+
+Output:
+Final Array:
+3 2 1
+6 5 4
+9 8 7
